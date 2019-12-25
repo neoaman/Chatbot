@@ -1,0 +1,108 @@
+body {
+        font-family: monospace;
+      }
+      h1 {
+        background-color: lightblue;
+        display: inline-block;
+        font-size: 3em;
+        margin: 0;
+        padding: 14px;
+        border-radius: 50px;
+      }
+      .image {
+      width:70px;
+      height:70px;
+      border-radius: 30px;
+      }
+      .logo{
+      width:50px;
+      height:70px;
+      border-radius: 10px;
+      }
+
+      h3 {
+        color: black;
+        font-size: 20px;
+        margin-top: 3px;
+        text-align: center;
+
+      }
+      #chatbox {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        width: 90%;
+        margin-top: 60px;
+      }
+      #userInput {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-top: 50px;
+
+
+      }
+      #textInput {
+        width: 90%;
+        border: none;
+        border-bottom: 2px solid black;
+        font-family: monospace;
+        font-size: 17px;
+        border-radius: 10px;
+        text-align: left;
+        line-height: 30px;
+        margin-bottom: 20px;
+        background-color: #BDE6C7;
+      }
+      .userText {
+        color: white;
+        font-family: monospace;
+        font-size: 17px;
+        text-align: right;
+        line-height: 30px;
+
+      }
+      .userText span {
+        background-color: #6BA974;
+        padding: 10px;
+        border-radius: 20px;
+      }
+      .botText {
+        color: white;
+        font-family: monospace;
+        font-size: 17px;
+        text-align: left;
+        line-height: 30px;
+      }
+
+      .botText span {
+        background-color: #5584A3;
+        padding: 10px;
+        border-radius: 20px;
+      }
+      #tidbit {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+
+      }
+
+      .boxed {
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        height: 600px;
+        margin-top: 60px;
+        border: 1px solid green;
+        overflow: hidden;
+        background-color: #8BCFB5;
+        border-radius: 50px;
+      }
+      /* If I hover on the box than it will show me scrollbar */
+      .boxed:hover {
+        overflow-y: auto;
+       }
+      .box {
+        border: 2px solid black;
+      }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <title>Neo</title>
+  <head>
+<!--    <link-->
+<!--      rel="shortcut icon"-->
+<!--      type="image/x-icon"-->
+<!--      href="https://user-images.githubusercontent.com/20112458/49326597-773b7280-f57a-11e8-853d-20ed61d18b0d.png"-->
+<!--    />-->
+
+    <script src="{{ url_for('static',filename='js/jquerymin.js')}}"></script>
+    <link href="{{ url_for('static',filename='css/styles.css')}}" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <center>
+      <h1>
+        <img class="image"
+          src="{{ url_for('static',filename='img/neo.jfif')}}"
+          alt="Neo"
+        />  Neo's Chatbot
+      </h1>
+    </center>
+    <h3>
+
+    </h3>
+    <div class="box"></div>
+    <div class="boxed">
+      <div class="overflow-scroll">
+        <div id="chatbox" >
+          <img class="logo"
+            src="{{ url_for('static',filename='img/AI.jpg')}}"
+            alt="Neomi"
+          />
+          <p class="botText">
+            <span>Hi! I'm Neomi your personal ChatBot ❤️</span>
+          </p>
+        </div>
+        <div id="userInput" >
+          <input id="textInput" type="text" name="msg" placeholder="  Message" />
+        </div>
+      </div>
+      <script src="{{ url_for('static',filename='js/extension.js')}}"></script>
+    </div>
+  </body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.1/js/materialize.min.js"></script>
+</html>
