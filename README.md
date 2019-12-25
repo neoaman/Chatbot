@@ -4,7 +4,9 @@ Created a chatbot with voice output using tflearn,and flask.
 
 # Need to install the required packages in requirment.txt
 
->> pip install -r requirements.txt
+```
+> pip install -r requirements.txt
+```
 
 <hr>
 
@@ -12,6 +14,8 @@ Created a chatbot with voice output using tflearn,and flask.
 ## Used tflearn which is an older version and works with lower version of tensorflow, Tensorflow 2.0 and above are not supported
 ## Need to run the the run.py file and now you are good to go. 
 
+```
 > python run.py
+```
 
 Enjoy the app
